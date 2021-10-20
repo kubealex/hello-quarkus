@@ -60,7 +60,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.redhat.GreetingResource</mainClass>
+							<mainClass>com.redhat.helloocp.GreetingResource</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

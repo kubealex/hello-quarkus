@@ -54,6 +54,17 @@
   </dependencies>
   <build>
     <plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>com.redhat.GreetingResource</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
       <plugin>
         <groupId>${quarkus.platform.group-id}</groupId>
         <artifactId>quarkus-maven-plugin</artifactId>
